@@ -9,5 +9,19 @@
 #import <UIKit/UIKit.h>
 
 @interface CryptoCalcSecondViewController : UIViewController
+{
+    //UI
+    IBOutlet UITextField *bitTextField;
+    IBOutlet UITextField *litTextField;
+    IBOutlet UITextField *dogTextField;
+
+}
+
+@property (nonatomic, retain) IBOutlet UITextField *bitTextField;
+@property (nonatomic, retain) IBOutlet UITextField *litTextField;
+@property (nonatomic, retain) IBOutlet UITextField *dogTextField;
+
+-(IBAction)changedButtonPressed:(id)sender;
+
 
 @end

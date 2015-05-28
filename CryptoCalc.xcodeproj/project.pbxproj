@@ -24,6 +24,12 @@
 		A0F4BE7B18B2D3410070D4F5 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F4BE7A18B2D3410070D4F5 /* second@2x.png */; };
 		A0F4BE7E18B2D3410070D4F5 /* CryptoCalcFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F4BE7C18B2D3410070D4F5 /* CryptoCalcFirstViewController.xib */; };
 		A0F4BE8118B2D3410070D4F5 /* CryptoCalcSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F4BE7F18B2D3410070D4F5 /* CryptoCalcSecondViewController.xib */; };
+		A0F4BE8B18B2E8E60070D4F5 /* 138-scales.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F4BE8718B2E8E50070D4F5 /* 138-scales.png */; };
+		A0F4BE8C18B2E8E60070D4F5 /* 161-calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F4BE8818B2E8E50070D4F5 /* 161-calculator.png */; };
+		A0F4BE8D18B2E8E60070D4F5 /* 190-bank.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F4BE8918B2E8E50070D4F5 /* 190-bank.png */; };
+		A0F4BE8E18B2E8E60070D4F5 /* 119-piggy-bank.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F4BE8A18B2E8E50070D4F5 /* 119-piggy-bank.png */; };
+		A0F4BE9018B2F3EC0070D4F5 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F4BE8F18B2F3EC0070D4F5 /* 20-gear2.png */; };
+		A0F4BE9318B31BF00070D4F5 /* CryptoCalcShared.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F4BE9218B31BF00070D4F5 /* CryptoCalcShared.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +56,13 @@
 		A0F4BE7A18B2D3410070D4F5 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		A0F4BE7D18B2D3410070D4F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CryptoCalcFirstViewController.xib; sourceTree = "<group>"; };
 		A0F4BE8018B2D3410070D4F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CryptoCalcSecondViewController.xib; sourceTree = "<group>"; };
+		A0F4BE8718B2E8E50070D4F5 /* 138-scales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "138-scales.png"; sourceTree = "<group>"; };
+		A0F4BE8818B2E8E50070D4F5 /* 161-calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "161-calculator.png"; sourceTree = "<group>"; };
+		A0F4BE8918B2E8E50070D4F5 /* 190-bank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "190-bank.png"; sourceTree = "<group>"; };
+		A0F4BE8A18B2E8E50070D4F5 /* 119-piggy-bank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "119-piggy-bank.png"; sourceTree = "<group>"; };
+		A0F4BE8F18B2F3EC0070D4F5 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		A0F4BE9118B31BF00070D4F5 /* CryptoCalcShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptoCalcShared.h; sourceTree = "<group>"; };
+		A0F4BE9218B31BF00070D4F5 /* CryptoCalcShared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptoCalcShared.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,14 +113,13 @@
 				A0F4BE6618B2D3400070D4F5 /* CryptoCalcAppDelegate.m */,
 				A0F4BE6E18B2D3410070D4F5 /* CryptoCalcFirstViewController.h */,
 				A0F4BE6F18B2D3410070D4F5 /* CryptoCalcFirstViewController.m */,
-				A0F4BE7118B2D3410070D4F5 /* first.png */,
-				A0F4BE7318B2D3410070D4F5 /* first@2x.png */,
 				A0F4BE7518B2D3410070D4F5 /* CryptoCalcSecondViewController.h */,
 				A0F4BE7618B2D3410070D4F5 /* CryptoCalcSecondViewController.m */,
-				A0F4BE7818B2D3410070D4F5 /* second.png */,
-				A0F4BE7A18B2D3410070D4F5 /* second@2x.png */,
+				A0F4BE9118B31BF00070D4F5 /* CryptoCalcShared.h */,
+				A0F4BE9218B31BF00070D4F5 /* CryptoCalcShared.m */,
 				A0F4BE7C18B2D3410070D4F5 /* CryptoCalcFirstViewController.xib */,
 				A0F4BE7F18B2D3410070D4F5 /* CryptoCalcSecondViewController.xib */,
+				A0F4BE9518B31C430070D4F5 /* images */,
 				A0F4BE5D18B2D3400070D4F5 /* Supporting Files */,
 			);
 			path = CryptoCalc;
@@ -125,6 +137,22 @@
 				A0F4BE6C18B2D3410070D4F5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0F4BE9518B31C430070D4F5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4BE7118B2D3410070D4F5 /* first.png */,
+				A0F4BE7318B2D3410070D4F5 /* first@2x.png */,
+				A0F4BE7818B2D3410070D4F5 /* second.png */,
+				A0F4BE7A18B2D3410070D4F5 /* second@2x.png */,
+				A0F4BE8F18B2F3EC0070D4F5 /* 20-gear2.png */,
+				A0F4BE8A18B2E8E50070D4F5 /* 119-piggy-bank.png */,
+				A0F4BE8718B2E8E50070D4F5 /* 138-scales.png */,
+				A0F4BE8818B2E8E50070D4F5 /* 161-calculator.png */,
+				A0F4BE8918B2E8E50070D4F5 /* 190-bank.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +217,11 @@
 				A0F4BE7B18B2D3410070D4F5 /* second@2x.png in Resources */,
 				A0F4BE7E18B2D3410070D4F5 /* CryptoCalcFirstViewController.xib in Resources */,
 				A0F4BE8118B2D3410070D4F5 /* CryptoCalcSecondViewController.xib in Resources */,
+				A0F4BE8B18B2E8E60070D4F5 /* 138-scales.png in Resources */,
+				A0F4BE8C18B2E8E60070D4F5 /* 161-calculator.png in Resources */,
+				A0F4BE8D18B2E8E60070D4F5 /* 190-bank.png in Resources */,
+				A0F4BE8E18B2E8E60070D4F5 /* 119-piggy-bank.png in Resources */,
+				A0F4BE9018B2F3EC0070D4F5 /* 20-gear2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +236,7 @@
 				A0F4BE6718B2D3400070D4F5 /* CryptoCalcAppDelegate.m in Sources */,
 				A0F4BE7018B2D3410070D4F5 /* CryptoCalcFirstViewController.m in Sources */,
 				A0F4BE7718B2D3410070D4F5 /* CryptoCalcSecondViewController.m in Sources */,
+				A0F4BE9318B31BF00070D4F5 /* CryptoCalcShared.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
